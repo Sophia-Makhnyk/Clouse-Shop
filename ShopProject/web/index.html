@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Інтернет магазин одягу</title>
+</head>
+<body>
+
+
+	<div id="blok1">
+    <div class="hstack gap-3">
+      <div class="p-2" id="icon1">
+        <i class="fa-solid fa-feather"></i>
+      </div>
+      <div class="p-2 ms-auto" id="icon2">
+        <a href="..." id="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="..." id="telegram"><i class="fa-brands fa-telegram"></i></a>
+        <a href="..." id="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="..." id="viber"><i class="fa-brands fa-viber"></i></a>
+      </div>
+      <div class="p-2" id="icon2">
+        <a href="..." id="like"><i class="fa-regular fa-heart"></i></a>
+        <a href="..." id="pay"><i class="fa-solid fa-basket-shopping"></i></a>
+      </div>
+    </div> 
+  </div>
+
+
+
+
+
+	<div id="blok2">
+    <div class="container">
+        <h1>До кінця акції залишилося:</h1>
+        <div id="action-info">
+            <div id="current-date"></div>
+            <div id="date"></div>
+            <div id="timer">
+                <div class="circle" id="days"></div>
+                <div class="circle" id="hours"></div>
+                <div class="circle" id="minutes"></div>
+                <div class="circle" id="seconds"></div>
+            </div>
+        </div>
+    </div>
+		<div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/women-8747913_1280.jpg" class="d-block w-100" alt="flowers">
+          <div class="carousel-caption d-none d-md-block">
+            <p id="textcarusel">Дві блузки за ціною однієї</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/woman-2564660_1280.jpg" class="d-block w-100" alt="flowers">
+          <div class="carousel-caption d-none d-md-block">
+            <p id="textcarusel">Кожна друга джинсова річ -40%</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/suits-me-online-6191399_1280.jpg" class="d-block w-100" alt="flowers">
+          <div class="carousel-caption d-none d-md-block">
+            <p id="textcarusel">Три шарфи за ціною двох</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+	</div>
+
+
+
+
+	<div id="blok3"></div>
+
+
+
+
+
+	<div id="blok4">
+   <div id="blok41">
+     <h1 id="icon3"><i class="fa-solid fa-feather"></i></h1>
+   </div> 
+   <div id="blok42">
+     <h2>Каталог товарів <i class="fa-solid fa-list"></i></h2>
+     <ul>
+       <li>Сукні</li>
+       <li>Спідниці</li>
+       <li>Шарфи</li>
+       <li>Куртки</li>
+       <li>Штани</li>
+       <li>Футболки</li>
+     </ul>
+   </div>
+   <div id="blok43">
+     <h2>Контакна інформація<i class="fa-regular fa-comments"></i></h2>
+     <ul>
+       <li>
+        <p>Номер телефону</p>
+        <p>+380666708350</p>
+      </li>
+       <li>
+        <p>Електрона ношта</p>
+        <p>lightladie@gmail.com</p>
+       </li>
+     </ul>
+   </div>
+  </div>
+
+
+
+
+<!-- Модальне (діалогове )  вікно-->
+
+
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtn">Open Modal</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+  <div class="modal-content">
+
+    <span class="close">&times;</span>
+    <h2>Контактні дані</h2>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">Реєстрація</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Авторизація</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+      <form>
+        <label for="first_name">Ім'я:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Прізвище:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Повторіть пароль:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <label>
+            <input type="checkbox" id="agreement" name="agreement" required>
+            Я згоден/а з правилами сайту
+        </label><br><br>
+
+        <button type="submit">Зареєструватися</button>
+      </form>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <form>
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Авторизуватися</button>
+      </form>
+    </div>
+
+  </div>
+
+</div>
+
+  <script src="./scripts/working_server.js"></script>
+  <script src="./scripts/main.js"></script>
+
+</body>
+</html>

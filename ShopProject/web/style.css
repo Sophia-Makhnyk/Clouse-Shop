@@ -1,0 +1,275 @@
+.hstack {
+    height: 60px;   
+    background-color: #EC7063;
+}
+#icon1{
+	font-size: 50px;
+}
+#icon2{
+	font-size: 30px;
+}
+#instagram{
+	background: linear-gradient(45deg, #ffdc80, #fc00ff, #00dbde);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+#telegram{
+	color: #85C1E9;
+}
+#facebook{
+	color: #2B74FD;
+}
+#viber{
+	color: #5947BA;
+}
+#like{
+	color: #FF0202;
+}
+#pay{
+	color: #08AF00;
+}
+
+
+#blok2 {
+    background-color: #FADBD8;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+#blok2 .carousel {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#blok2 .carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#blok2 #carouselExampleCaptions {
+    margin-top: 15px;
+}
+#textcarusel{
+	color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	font-size: 18pt;
+	font-weight: bold;
+}
+#action-info {
+    margin-top: 15px;
+    font-size: 18px;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: #C70039;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #E21100;
+    color: #F7F7F8;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.container{
+	text-align: center;
+}
+
+
+
+
+#blok3 {
+    display: flex;
+    background-color: #FDEDEC;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 2400px;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 40px;
+}
+#blok31 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin-bottom: 36px;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+.heart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-top: 24px; 
+}
+h2.description {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+p.description {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+.cart-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.heart-button.active i {
+   color: red;
+}
+#blok4{
+	display: flex;
+    background-color: #F0766C;
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+#blok4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+#blok4 > div {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+#blok41 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+#icon3{
+	font-size: 120px;
+}
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
